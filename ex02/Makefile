@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: julienbelda <julienbelda@student.42.fr>    +#+  +:+       +#+         #
+#    By: jul <jul@student.42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/12/01 10:15:02 by julienbelda       #+#    #+#              #
-#    Updated: 2025/12/01 10:27:43 by julienbelda      ###   ########.fr        #
+#    Updated: 2026/02/26 22:18:50 by jul              ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,7 +26,7 @@ $(NAME) : $(OBJS)
 all: $(NAME)
 
 clean: 
-	$(RM) $(OBJS)ls
+	$(RM) $(OBJS)
 
 fclean: clean
 	$(RM) $(NAME)

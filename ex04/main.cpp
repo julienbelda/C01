@@ -3,16 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: julienbelda <julienbelda@student.42.fr>    +#+  +:+       +#+        */
+/*   By: jul <jul@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/02 10:11:16 by julienbelda       #+#    #+#             */
-/*   Updated: 2025/12/02 12:02:26 by julienbelda      ###   ########.fr       */
+/*   Updated: 2026/02/23 19:03:37 by jul              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <iostream>
-#include <fstream>
-#include <string>
 
 #include <iostream>
 #include <fstream>

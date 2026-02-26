@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: julienbelda <julienbelda@student.42.fr>    +#+  +:+       +#+        */
+/*   By: jul <jul@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/01 10:17:50 by julienbelda       #+#    #+#             */
-/*   Updated: 2025/12/01 10:18:50 by julienbelda      ###   ########.fr       */
+/*   Updated: 2026/02/24 11:13:56 by jul              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int main()
 {
-	Zombie* zombilife;
+	Zombie *zombilife;
 
 	zombilife = newZombie("BROSKI");
 	zombilife->announce();

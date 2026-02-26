@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: julienbelda <julienbelda@student.42.fr>    +#+  +:+       +#+        */
+/*   By: jul <jul@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/01 10:14:14 by julienbelda       #+#    #+#             */
-/*   Updated: 2025/12/01 10:26:17 by julienbelda      ###   ########.fr       */
+/*   Updated: 2026/02/23 15:10:05 by jul              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,8 @@ int main()
 {
 	std::string str = "HI THIS IS BRAIN";
 
-	std::string* stringPTR = &str;
-	std::string& stringREF = str;
+	std::string *stringPTR = &str;
+	std::string &stringREF = str;
 
 	/*AFFICHAGE ADRESSE*/
 	std::cout << "Adress of str : " << &str << std::endl;

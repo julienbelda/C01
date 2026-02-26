@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Zombie.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: julienbelda <julienbelda@student.42.fr>    +#+  +:+       +#+        */
+/*   By: jul <jul@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/01 10:18:37 by julienbelda       #+#    #+#             */
-/*   Updated: 2025/12/01 10:18:42 by julienbelda      ###   ########.fr       */
+/*   Updated: 2026/02/24 09:51:27 by jul              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,11 +30,3 @@ Zombie* newZombie(std::string name);
 void 	randomChump(std::string name);
 
 #endif
-
-/*
-	name -> Nom du Zombie (privé)
-	Zombie(name) -> Constructeur -> Donne le nom au zombie
-	~Zombie() -> Destructeur -> Affiche un message quand il meurt
-	announce() -> Fait "parler" le Zombie
-	newZombie / randomChump -> Fonction free qui seront dans d'autres fichier
-*/
